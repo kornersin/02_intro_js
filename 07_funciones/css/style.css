@@ -1,0 +1,39 @@
+/* Haz un Semáforo.
+
+El semáforo deberá cambiar de luz de Verde a Amarilla y de Amarilla a Roja y luego de nuevo a Verde.
+
+Puedes mostrar la imagen del semáforo cambiando, hacer el cambio con console.log o con alert.
+
+Se debe respetar el orden de los colores:
+
+De rojo pasa a Verde.
+De amarillo puede pasar a Rojo.
+De Verde pasa a Amarillo. */
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gray;
+}
+.red{
+    background-color: red;
+    border-radius: 1000px;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+.yellow{
+    background-color: yellow;
+    border-radius: 1000px;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+.green{
+    background-color: green;
+    border-radius: 1000px;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
